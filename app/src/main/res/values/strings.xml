@@ -15,7 +15,6 @@
     <string name="title_activity_open_vehicles">OpenVehiclesActivity</string>
     <string name="title_activity_vehicle_profile">VehicleProfileActivity</string>
     <string name="title_activity_open_vehicle">OpenVehicleActivity</string>
-    <string name="close_car_and_start_ride">Close Car and Start Ride</string>
     <string name="your_passengers">Your Passengers</string>
     <string name="add_vehicle">Add Vehicle</string>
     <string name="your_vehicles">Your Vehicles</string>
@@ -41,4 +40,12 @@
     <string name="student">Student</string>
     <string name="alumni">Alumni</string>
     <string name="parent">Parent</string>
+    <string name="available_vehicles">Available Vehicles</string>
+    <string name="deleteVehicle">deleteVehicle</string>
+    <string name="driver">Driver:</string>
+    <string name="vehicle">Vehicle:</string>
+    <string name="book_vehicle">Book Vehicle</string>
+    <string name="close_car_and_start_ride">Close Car and Start Ride</string>
+    <string name="refreshButton">refreshButton</string>
+    <string name="addVehicle">Add Vehicle:</string>
 </resources>

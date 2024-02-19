@@ -11,8 +11,8 @@ public class Alumni extends User {
 
     public String getGraduateYear() {return graduateYear;}
 
-    public Alumni(String id, String n, String e, String ut, ArrayList<String> ov, int r, String gy) {
-        super(id, n, e, ut, ov, r);
+    public Alumni(String id, String e, String n, String ut, String gy) {
+        super(id, e, n, ut);
         graduateYear = gy;
     }
 }

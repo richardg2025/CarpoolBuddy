@@ -11,11 +11,11 @@
         style="@android:style/Widget.DeviceDefault.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="11dp"
         android:backgroundTint="#00FFFFFF"
         android:fontFamily="@font/averia_sans_libre_light"
-        android:onClick="navAuth"
+        android:onClick="signOut"
         android:text="@string/sign_out"
         android:textColor="@color/theme_gray"
         android:textSize="20sp"
@@ -27,62 +27,63 @@
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
         android:fontFamily="@font/averia_sans_libre_light"
         android:text="Richard Guo"
+        android:textAlignment="viewStart"
         android:textColor="@color/theme_gray"
         android:textSize="55sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.264" />
+        app:layout_constraintVertical_bias="0.258" />
 
     <TextView
         android:id="@+id/userType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
         android:fontFamily="@font/averia_sans_libre_light"
         android:text="Student"
+        android:textAlignment="viewStart"
         android:textColor="@color/theme_gray"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.208"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.364" />
+        app:layout_constraintVertical_bias="0.359" />
 
     <TextView
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
         android:fontFamily="@font/averia_sans_libre_light"
         android:text="buddycarpool@gmail.com"
+        android:textAlignment="viewStart"
         android:textColor="@color/theme_gray"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.369"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.428" />
+        app:layout_constraintVertical_bias="0.421" />
 
     <TextView
         android:id="@+id/uid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
         android:fontFamily="@font/averia_sans_libre_light"
         android:text="#123415"
+        android:textAlignment="viewStart"
         android:textColor="@color/theme_gray"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.186"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.477" />
+        app:layout_constraintVertical_bias="0.47" />
 
     <Button
         android:id="@+id/userVehiclesButton"

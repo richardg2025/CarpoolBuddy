@@ -31,10 +31,7 @@
             android:name=".activities.VehicleProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.OpenVehicleActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activities.AvailableVehiclesActivity"
+            android:name=".activities.OpenVehiclesActivity"
             android:exported="false" />
         <activity
             android:name=".activities.AddVehicleActivity"
@@ -44,9 +41,6 @@
             android:exported="false" />
         <activity
             android:name=".activities.UserProfileActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activities.RatePassengersActivity"
             android:exported="false" />
         <activity
             android:name=".activities.DriverPassengersActivity"

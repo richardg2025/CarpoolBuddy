@@ -8,7 +8,7 @@ public class User {
     private String email;
     private String userType;
     private ArrayList<String> ownedVehicles;
-    private int rating;
+    private double rating;
 
     public void setUid(String uid) {this.uid = uid;}
     public void setName(String name) {this.name = name;}
@@ -23,22 +23,33 @@ public class User {
     public String getEmail() {return email;}
     public String getUserType() {return userType;}
     public ArrayList<String> getOwnedVehicles() {return ownedVehicles;}
-    public int getRating() {return rating;}
+    public double getRating() {return rating;}
 
-    public User(String id, String n, String e, String ut, ArrayList<String> ov, int r) {
+//    public User(String id, String n, String e, String ut, ArrayList<String> ov, int r) {
+//        uid = id;
+//        name = n;
+//        email = e;
+//        userType = ut;
+//        ownedVehicles = ov;
+//        rating = r;
+//    }
+//
+//    public User(String n, String e, String ut) {
+//        name = n;
+//        email = e;
+//        userType = ut;
+//        rating = 5;
+//        ownedVehicles = new ArrayList<String>();
+//    }
+
+    public User(String id, String e, String n, String ut) {
         uid = id;
-        name = n;
         email = e;
-        userType = ut;
-        ownedVehicles = ov;
-        rating = r;
-    }
-
-    public User(String n, String e, String ut) {
         name = n;
-        email = e;
         userType = ut;
         rating = 5;
-        ownedVehicles = new ArrayList<String>();
+        ownedVehicles = new ArrayList<>();
     }
+
+    public User() {}
 }

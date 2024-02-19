@@ -17,25 +17,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.264" />
-
-    <TextView
-        android:id="@+id/userType"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/averia_sans_libre_light"
-        android:text="Student"
-        android:textColor="@color/theme_gray"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.208"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.364" />
+        app:layout_constraintVertical_bias="0.323" />
 
     <TextView
         android:id="@+id/email"
@@ -50,51 +35,7 @@
         app:layout_constraintHorizontal_bias="0.369"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.428" />
-
-    <TextView
-        android:id="@+id/uid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/averia_sans_libre_light"
-        android:text="#123415"
-        android:textColor="@color/theme_gray"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.186"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.477" />
-
-    <Button
-        android:id="@+id/submitRatingButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/theme_gray"
-        android:fontFamily="@font/averia_sans_libre_light"
-        android:onClick="navMain"
-        android:text="@string/submit_rating"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.814"
-        tools:ignore="UsingOnClickInXml" />
-
-    <RatingBar
-        android:id="@+id/driverRatingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:isIndicator="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.578" />
+        app:layout_constraintVertical_bias="0.402" />
 
     <TextView
         android:id="@+id/pageHeading"
@@ -110,6 +51,36 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.18" />
+        app:layout_constraintVertical_bias="0.228" />
+
+    <Button
+        android:id="@+id/submitRatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/theme_gray"
+        android:fontFamily="@font/averia_sans_libre_light"
+        android:onClick="submitRating"
+        android:text="@string/submit_rating"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78"
+        tools:ignore="UsingOnClickInXml" />
+
+    <RatingBar
+        android:id="@+id/driverRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:stepSize="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.572" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
