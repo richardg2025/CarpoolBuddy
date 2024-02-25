@@ -9,8 +9,8 @@ public class Teacher extends User{
 
     public String getInSchoolTitle() {return inSchoolTitle;}
 
-    public Teacher(String id, String e, String n, String ut, String ist) {
-        super(id, e, n, ut);
+    public Teacher(String id, String n, String e, String ut, ArrayList<String> ov, int r, String ist) {
+        super(id, n, e, ut, ov, r);
         inSchoolTitle = ist;
     }
 }

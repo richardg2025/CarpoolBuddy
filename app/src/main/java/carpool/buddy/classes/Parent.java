@@ -10,8 +10,8 @@ public class Parent extends User{
 
     public ArrayList<String> getChildrenUIDs() {return childrenUIDs;}
 
-    public Parent(String id, String e, String n, String ut, ArrayList<String> cid) {
-        super(id, e, n, ut);
+    public Parent(String id, String n, String e, String ut, ArrayList<String> ov, int r, ArrayList<String> cid) {
+        super(id, n, e, ut, ov, r);
         childrenUIDs = cid;
     }
 }

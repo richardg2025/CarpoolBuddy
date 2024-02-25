@@ -10,9 +10,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import carpool.buddy.R;
 
 public class UserVehiclesViewHolder extends RecyclerView.ViewHolder {
-    protected TextView isEV, vehicleModel;
-    public UserVehiclesViewHolder(@NonNull View v) {
-        super(v);
+    TextView isEV, vehicleModel;
+    ImageButton deleteVehicle;
+    public UserVehiclesViewHolder(@NonNull View itemView) {
+        super(itemView);
+        deleteVehicle = itemView.findViewById(R.id.deleteVehicle);
         isEV = itemView.findViewById(R.id.isEV);
         vehicleModel = itemView.findViewById(R.id.vehicleModel);
     }
