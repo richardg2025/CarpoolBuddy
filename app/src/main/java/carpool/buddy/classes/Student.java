@@ -13,8 +13,8 @@ public class Student extends User{
     public String getGraduatingYear() {return graduatingYear;}
     public ArrayList<String> getParentUIDs() {return parentUIDs;}
 
-    public Student(String id, String e, String n, String ut, String gy, ArrayList<String> pid) {
-        super(id, e, n, ut);
+    public Student(String id, String n, String e, String ut, ArrayList<String> ov, int r, String gy, ArrayList<String> pid) {
+        super(id, n, e, ut, ov, r);
         parentUIDs = pid;
         graduatingYear = gy;
     }
